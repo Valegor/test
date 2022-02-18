@@ -1,0 +1,9 @@
+INSERT INTO `card` (`id`, `code`, `name`, `category`, `img1`, `img2`, `backimg`, `notes`) VALUES 
+(NULL, 'code1', 'name1', 'cat1', 'img1-1', 'img1-2', 'backimg1', 'notes1'), 
+(NULL, 'code2', 'name2', 'cat2', 'img1-2', 'img2-2', 'backimg2', 'notes2')
+;
+
+
+INSERT INTO `category` (`id`, `name`) VALUES 
+(NULL, 'cat3'), 
+(NULL, 'cat4');

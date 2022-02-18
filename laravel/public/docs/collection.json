@@ -1,0 +1,528 @@
+{
+    "variable": [
+        {
+            "id": "baseUrl",
+            "key": "baseUrl",
+            "type": "string",
+            "name": "string",
+            "value": "http:\/\/laravel-super.loc:8888\/"
+        }
+    ],
+    "info": {
+        "name": "Laravel",
+        "_postman_id": "02993260-8480-4d4a-8c69-6ec9575fd617",
+        "description": "",
+        "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
+    },
+    "item": [
+        {
+            "name": "Endpoints",
+            "description": "",
+            "item": [
+                {
+                    "name": "api\/user",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/user",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/user"
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "text\/html; charset=UTF-8"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "XSRF-TOKEN=eyJpdiI6Ik1yYjZiZ0dvZnhYVktFVExVN3VMQUE9PSIsInZhbHVlIjoiM3h3M3F2WEZXcGdUSDhEN2w3WjJmVzJ1RkMrWnBpemhLd2I1RDNqK1EvN1NPV3FFTFBBWHlsYldKOTRmbjZ5a2J0OFFaY2lkQXNqYzRmWmdyR2J4bjRYTTRpRW9RTkxBRDZhMjU1M0xUYnF4WDZMbFBCTTNWZTJNWXl3TThMZngiLCJtYWMiOiI4NTUxNmQzN2FiYjk5NjZlZWZlNjg0MTMzOTNhNTViNWEwNWFhNDhiOTc5ZjNlZjhhNTliOGFhZWZiMGFiOGU0IiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; samesite=lax; laravel_session=eyJpdiI6ImxybVpEcVNJdzJQa0MvdGpNQWhMMlE9PSIsInZhbHVlIjoiWi9oZzAzYURvOWMzZ0FILzM5NkoxRDRuN28xZU5yTXJCaU9oVEFtV0k3Z1JIVHNWeFFUMldxOXdpSUE4Yktvelc2cDVOVElHeUhuNFJSUnBqaXFTMXhDZThONXA5d3ZyM3RJVWgrSk0yb0h3eWZuazhuNDJvZmtoeVVBbGVyMlQiLCJtYWMiOiJhZWEwOTg3MWE2ODYzNzE4NzAzMWQ0NDQ3MmU2NDJjMDMxYjY1NTdmODkwN2MyNWUwMjNjNjYzMDQ5YTdhNDc5IiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 200,
+                            "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document<\/title>\n        <!-- Scripts -->\n        <script src=\"http:\/\/laravel-super.loc:8888\/js\/app.js\" defer><\/script>    \n        <!-- Styles -->\n        <link href=\"http:\/\/laravel-super.loc:8888\/css\/app.css\" rel=\"stylesheet\">\n<\/head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index><\/Index>\n    <\/div>\n<\/body>\n<\/html>",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "api\/get",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/get",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/get"
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "text\/html; charset=UTF-8"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "XSRF-TOKEN=eyJpdiI6IkRSdjQ3TmFFb1ZtUE04UWFBejRJelE9PSIsInZhbHVlIjoiSElOYjM2bWoyckdQWVNIcDR3SlVrL2ZDeG9QQWlSQ2cyMU1EUTlMN0tkQkN3YVRpSElqSGttMXpaWCs2bDFaVCtHY0dmVmtQYlUrUkRKM0lwbm9rVkRWZUZJRUZhR2R5bkFyL2xtVWQzWFhrdHl3clZzWFNkMXdGRmlDM2k2ckEiLCJtYWMiOiIzZmQxMGNmNjUzOTBkYTY0N2JmMDg4NzQxNjRhYzBmYzlkNGYxOTY1MzlkOGNmZmYxMjlkMmFjODhlYTVmNzhkIiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; samesite=lax; laravel_session=eyJpdiI6IlRGUlQ5cVNmWWtIems4R2dhTlpoTFE9PSIsInZhbHVlIjoiT1RKelBUcjlsU1F1WVozSERKTlZhb0pjQ2xWK1hXTXcyd2ZvM1BsNW43aWE1KzZ5UDlMM05xTjlpNUQrSU5CWWVFRW9scERCWHcxUGNOVW9tMmJZN2ZreW9lZGdlUnhKcWwyR0ZhZE5sYzhtMkV0cFNhZkQ3aEhkUEt3RWYvRmMiLCJtYWMiOiIwYWZhZTJjMWQ4NDlmNWU3ZGRiZTIyOTNhOGVlZGFkNzU4YTEwOWFmNDNlN2ZjZGUzYzNlMmVmMzY0NGIwMzc0IiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 200,
+                            "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document<\/title>\n        <!-- Scripts -->\n        <script src=\"http:\/\/laravel-super.loc:8888\/js\/app.js\" defer><\/script>    \n        <!-- Styles -->\n        <link href=\"http:\/\/laravel-super.loc:8888\/css\/app.css\" rel=\"stylesheet\">\n<\/head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index><\/Index>\n    <\/div>\n<\/body>\n<\/html>",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "api\/categories",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/categories",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/categories"
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "text\/html; charset=UTF-8"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "XSRF-TOKEN=eyJpdiI6Ik96NjQxaGVabGdNWXN4RStVMnhrS2c9PSIsInZhbHVlIjoidlF3M0wydWV6SGY0TjIzTkpUUS9Kbm1ncTl3c09Hb0pqWVN1b0RzVTl3TVdmZERTUUdVQnF4Wk14VjlxTmM1aHp5UnN1NWhZckVDa3hNL1UvaThDelYwekJFYVhOVld5dXF0WXNXSG1qcjExSE54UlJYWHhIaC9MaVovL3FUMFQiLCJtYWMiOiJjY2NlN2M1ZDcxYzYzMWZlNWNlZGM5ZmE5YWY1N2E2MzAwMWJmZjg1ZDY0MGM1NTU2ZjA4OTQwYzBmZGQ4ZGQ3IiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; samesite=lax; laravel_session=eyJpdiI6Ik5WcjNDeTVzZCtNK3c4aXdJMHVjZFE9PSIsInZhbHVlIjoidXd3SFdrYldBOW04MXc2VUNtMDR4UkVnZnBvVWtzQXRWYnU3dzgvRVZSZjNyZC83ajFmMENERGl0WlNVUGJCRWlEajJIYStPWTRISEZuQlhEZFN3L0hHWFRjWnpMN1FNOEdGdFVIU0R1UnNKK0JiVjRqL0Fsd2lDb3RIYWpHZmIiLCJtYWMiOiIwZTFhYjA3MmZhNzA2YzViNGRhYmE5MzM5YjU3ZDIxN2U0ZjNiNDY0YjdhNDY1ZDcwZjkyZjJkNDMxNDlmMDFkIiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 200,
+                            "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document<\/title>\n        <!-- Scripts -->\n        <script src=\"http:\/\/laravel-super.loc:8888\/js\/app.js\" defer><\/script>    \n        <!-- Styles -->\n        <link href=\"http:\/\/laravel-super.loc:8888\/css\/app.css\" rel=\"stylesheet\">\n<\/head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index><\/Index>\n    <\/div>\n<\/body>\n<\/html>",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "api\/categories\/{category}",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/categories\/:category",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/categories\/:category",
+                            "variable": [
+                                {
+                                    "id": "category",
+                                    "key": "category",
+                                    "value": "4",
+                                    "description": ""
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "text\/html; charset=UTF-8"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "XSRF-TOKEN=eyJpdiI6InMrZSs1R1QwRXgwa01BNytPWithaVE9PSIsInZhbHVlIjoidDVPZmx3MjdPM2ZJODNFRGR5UlRpR2tnMzY0dGR5QzBYRXVEMU1VTG0relRtRDA5RXdFc0gxNFhXa0l3M2ZUUEdVZlcyMEpycmhZQlV3Qk9FYVVYeng0cVpRNUdsT2kxdTlSclgwWkFtdS9TQ2c0U2dPTm1IMmRHOUQyQ2hvdGMiLCJtYWMiOiI4ZGUxZTZjMzc2YmQ2OWUwYzZlNjllNjE2NWY5M2VmNmY2Yjc5YTE0ZTI2OTU1MzBkN2MzZmZmNGQwYmRkMWNhIiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; samesite=lax; laravel_session=eyJpdiI6InB4QjYwQXVyV1VKWUlIaGNJVWFjTkE9PSIsInZhbHVlIjoiaU0zWjc1a3g0TDk1M3hkemRiM0VnQk1GSFJzTUY4ZHE5UmlEc3psT21laEUrK09rTWs1bUJnUDZlVzdTcDhnOVVZNmMrck1RbUtOdGtLZnpxbE5BTjVDTUpiSlA5VXc5VUZveUJNeTlGWmlXczZML2hMZ0ViL3hDZXRSK096U3UiLCJtYWMiOiI2MzRlM2VlYzI0M2M3NjU2MmQ3Y2I0NmI2NzBhNWJkYTM5NDM2ZmNhMzA3MzRlNDBiZmI2MTI0ZGQ5YWQ1MGY1IiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 200,
+                            "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document<\/title>\n        <!-- Scripts -->\n        <script src=\"http:\/\/laravel-super.loc:8888\/js\/app.js\" defer><\/script>    \n        <!-- Styles -->\n        <link href=\"http:\/\/laravel-super.loc:8888\/css\/app.css\" rel=\"stylesheet\">\n<\/head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index><\/Index>\n    <\/div>\n<\/body>\n<\/html>",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "api\/posts",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/posts",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/posts"
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "text\/html; charset=UTF-8"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "XSRF-TOKEN=eyJpdiI6IlZDVHpNVWFmbEF1dnJvTFBncmRnYUE9PSIsInZhbHVlIjoid0FxeisyWlNINW1vOHNERTZ0K0tpWUVVOUNocEYvN0YrNGU1QWZXSkN6RWY0NU1qNE1IUHpzN2QvRWJMbUQvMnROODVZTG5BbVhQSm90Y0piVWFWZHl2Q2w5YTZjTUhOZHZ6Z0JVY0VxV001cXR4UFpEQTAwMFNZRlRUTTVoRzEiLCJtYWMiOiJiZjk0YjRiZTNiNmVlMWMyYjI4NGRhMThkYjQ2YzgyMjhhYzYwOWM4YzMwYjdiMWI4OGE5MjBhM2JlN2YwMDI0IiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; samesite=lax; laravel_session=eyJpdiI6Iit2TWtncUhYOHg5dkZhR3JtMUJLTHc9PSIsInZhbHVlIjoiUUhsZnBwK3ZHdzlKQ21jTnJjSWRjVXJWeFVsNjQ3WmhabVJuUFdLZE9EOFZhcWl1MUVHd0oxRnZVam0zNGRDUEtZdFRRZjRObmhWeFprN0tER2ZSVnRBUlhBWHZzK0NPbW9RU2d2ZGZpSmZRZUMwSjZTSW02OVQ5eTI5Q2t0N0oiLCJtYWMiOiJkMGIyMTlkNGI0ZTAyZTYxMDRkMGQ0NTA5NGMxZDM0NGE3YTdlM2NhN2Y5MzE5ZDQxZDdhYzNkOGRlZmY2NjJjIiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 200,
+                            "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document<\/title>\n        <!-- Scripts -->\n        <script src=\"http:\/\/laravel-super.loc:8888\/js\/app.js\" defer><\/script>    \n        <!-- Styles -->\n        <link href=\"http:\/\/laravel-super.loc:8888\/css\/app.css\" rel=\"stylesheet\">\n<\/head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index><\/Index>\n    <\/div>\n<\/body>\n<\/html>",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "api\/posts\/{post}",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/posts\/:post",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/posts\/:post",
+                            "variable": [
+                                {
+                                    "id": "post",
+                                    "key": "post",
+                                    "value": "18",
+                                    "description": ""
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "text\/html; charset=UTF-8"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "XSRF-TOKEN=eyJpdiI6Ik9NRVFQZktNbEt5R0xGRjJJdnRyK2c9PSIsInZhbHVlIjoiS1BpM2ZyeUlEc0hGZEw3UVJLaDNNbXFCUkhLNmhSYWlGTkszYkFxVzNiTWZhRUVnaW5zRlVSQUtjMUxIOXhGY0lQMU1qd3lmN2p5cWhpQTh0elFnL2xjZWJ2M2Y0OG45QitHR0x6Z1A3OStQay9XWFNkVHkzazd4UHdvSnhMMmYiLCJtYWMiOiI0ZThmYjdhNzQxMDI4NWMwYTdhN2Y4MmE3MmNiOTFjODA3OTI5ZmMyNGE5MmIxOWE2ZjM1OWEwODY5OGI1YmY5IiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; samesite=lax; laravel_session=eyJpdiI6IktzamdsMnBoeEhJRGpDd0hOOENTZ1E9PSIsInZhbHVlIjoic0poOGN0eHNsR1o1cVRzNDZIeXNVU042NnZlZjAxSE5QRzhTb2ZsaThjRkVpVE5HS3VnSkJ6bmcrYnhiRkJKLzNqdkNwUGNZMVpiZDl1Y0h6cHhGbXNQTXExTkphOUVVQmN2SWNKY1AwOXlucStXR3FzZXZvLzJpbFEreEJVMlYiLCJtYWMiOiI3YmZiM2Q3MDBiMGY5YjBkODI2ZDQyZmU4ZWE2Mzg4Y2IyYjAwYzJiNWZmMzNjZGU3NGU2YzE4MzZmOGM0NTgzIiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 200,
+                            "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document<\/title>\n        <!-- Scripts -->\n        <script src=\"http:\/\/laravel-super.loc:8888\/js\/app.js\" defer><\/script>    \n        <!-- Styles -->\n        <link href=\"http:\/\/laravel-super.loc:8888\/css\/app.css\" rel=\"stylesheet\">\n<\/head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index><\/Index>\n    <\/div>\n<\/body>\n<\/html>",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "api\/posts-categories",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/posts-categories",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/posts-categories"
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "text\/html; charset=UTF-8"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "XSRF-TOKEN=eyJpdiI6InNzNklDd1owaUFWUSs3QlZPdlp0ZHc9PSIsInZhbHVlIjoiOUhoeHlpV1FzZzB5SGRJVkhVSk5Eby9zRitvbmlEQ2xqbDZLNXBuc3dweGhhVzdqZWE4THZjWnRXYTA2bjUzMGZLRFVWU2diUnUyVHUvU2dNSnpjNmdBUWo2OVY5RzhnSE9lL1JzMlpZcXA1emtPVmV4K05yTU55RG9WMFlOTS8iLCJtYWMiOiIzMzk3YTFiMjgyYThkMzBkOGJjZGU4NTlhODA0MzcxZDEzZjY0N2M3YzQ3MDU5MzVmNGI1NjExM2NmMmJkNDY1IiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; samesite=lax; laravel_session=eyJpdiI6IjQ4S1F3dHlqbmd1UDYvdUdPdWVTa0E9PSIsInZhbHVlIjoiNUpweU0rVzl3N0p4SkhFZjBrbWpqMkkzN1RtKzMrT1dycTVKMHlXeklvQnFObWV5TFljazNYaElla1F3bmVYRlVrZE9jL3pOaHZPM0dTWWc4ZVE3dHJJaGU2cE1qRkRJcUhIbno4UmFudzBYQ2c5MVpHMDY3NEExdGw3Z2NKR0EiLCJtYWMiOiI3N2I1ZDI3NmFhYWE3YTU2YzM1ZjMwNzc5MTAxYTU3YTE2NGQwYzI2MzE2ODQwNDAyYzc1ZTMxOTk0ZDg1ZWEwIiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 200,
+                            "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document<\/title>\n        <!-- Scripts -->\n        <script src=\"http:\/\/laravel-super.loc:8888\/js\/app.js\" defer><\/script>    \n        <!-- Styles -->\n        <link href=\"http:\/\/laravel-super.loc:8888\/css\/app.css\" rel=\"stylesheet\">\n<\/head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index><\/Index>\n    <\/div>\n<\/body>\n<\/html>",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "api\/posts-categories\/{category}",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/posts-categories\/:category",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/posts-categories\/:category",
+                            "variable": [
+                                {
+                                    "id": "category",
+                                    "key": "category",
+                                    "value": "7",
+                                    "description": ""
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "text\/html; charset=UTF-8"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "XSRF-TOKEN=eyJpdiI6IlJkcXltMm8vbTdCalRTQWdaRTBheFE9PSIsInZhbHVlIjoiUjFYWTc1MzM5Z3I5Wit0VHJieGxlWW0waWsxUWNOaVl0S3UyNFZMYkgyUThpTis0a0Vib2w0bFBUOEdJV0xPZ2hkNlE0Z08vNDRLUXBJVURVdmhBNHZQS21ocitoaFlFS3FoWWlId1VtNUt3aCtpYndPVXRaRVF6a3p6MUp1UHoiLCJtYWMiOiJlZTE3OWJhNDM3ZmZhMGIwYjY3MjQxNmU3Nzg0MDMyNTNlYWNhNDM0ZDVjNzcxMzcwMzg2MGVkMTc4OGE3OTdjIiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; samesite=lax; laravel_session=eyJpdiI6Ikk5ekJwM1BndTBPU25kM3VsV1Z4S3c9PSIsInZhbHVlIjoiNjBOYXAyNjl2Z1hOUzlENW1UV2U5QVdyd3ZLVTBqbUJNM0NKb2hQakJGSFFCQm1NSUhPbjN2NG9wTWRyd1JPN1NGZ2VGWUEzZ0o2VzNvWUNCTURMME5jNnU5TytsV1dQcEM2Y1UwcldLTmNMdmhpc0c1V3Q1VE1wSGxSWG5qS1oiLCJtYWMiOiI0MzRiYzI1MmIwOGM5MGFlMjE0M2ZkNDJkMWYwOTA5YThjMTdhZDQwNjIxODlkMzgzNzUzZDQ1YTFiMTRjMzU5IiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:14 GMT; Max-Age=7200; path=\/; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 200,
+                            "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document<\/title>\n        <!-- Scripts -->\n        <script src=\"http:\/\/laravel-super.loc:8888\/js\/app.js\" defer><\/script>    \n        <!-- Styles -->\n        <link href=\"http:\/\/laravel-super.loc:8888\/css\/app.css\" rel=\"stylesheet\">\n<\/head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index><\/Index>\n    <\/div>\n<\/body>\n<\/html>",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "api\/categories-posts\/{category}",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/categories-posts\/:category",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/categories-posts\/:category",
+                            "variable": [
+                                {
+                                    "id": "category",
+                                    "key": "category",
+                                    "value": "voluptas",
+                                    "description": ""
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "text\/html; charset=UTF-8"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "vary",
+                                    "value": "Origin"
+                                },
+                                {
+                                    "key": "set-cookie",
+                                    "value": "XSRF-TOKEN=eyJpdiI6Ind1bXNOTVZyTUgvNDAxT1FGQU9jdnc9PSIsInZhbHVlIjoiYUdnRFhmZ1BXTXFaVjdPcGxqMVBlYjZEQ0FQbTlSeStmSmx1MGtadnl2Y0R3OER4cWRlc2tOQ1VMTU4rdk85ZktWNnl1Q2tFZncxR3l5VnlOZmRtVzJYNUFjSDFsWWVxaHdBcDcxVWRWQmZpQ0p5dnhKYUI5WVREaVFwZEU4c1EiLCJtYWMiOiI1MmIwY2FjNTY5ZDNiMDI3NWUyZjZiNzEzMTJjYjBlZTNmYzU2MjVhNjI2YTI0YjA3OWRiYzY2MDAzNDk2ODIyIiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:15 GMT; Max-Age=7200; path=\/; samesite=lax; laravel_session=eyJpdiI6ImNMRURwaUwvMlpOSFhmLzk2MGx0aXc9PSIsInZhbHVlIjoibnJwZlRZeDRJcUY2L0I4d1ZMNTgrLzhQYXlVeG1rRHRNQnZFQURrdmpPSlFoRk54OHJ2REZXSjlxdm5BSkFid2EvbFlVS2ZIcDNHOXE4cWxmRVNWQk5UMjJPcE9jR2h4Z2dmQnRKNzNualBXSkZzU2Jwc2J3NGZ3endpdy95d2YiLCJtYWMiOiI4Njg1MmY0NWRhZjE1NzUzYzQ1MGRhOGNkNDY1NDMwZWM1MTc2YTRlMGYzYjE2Mjg5ZjZhNGY1MjhlYTQ0OWUyIiwidGFnIjoiIn0%3D; expires=Sun, 09-Jan-2022 13:29:15 GMT; Max-Age=7200; path=\/; httponly; samesite=lax"
+                                }
+                            ],
+                            "code": 200,
+                            "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document<\/title>\n        <!-- Scripts -->\n        <script src=\"http:\/\/laravel-super.loc:8888\/js\/app.js\" defer><\/script>    \n        <!-- Styles -->\n        <link href=\"http:\/\/laravel-super.loc:8888\/css\/app.css\" rel=\"stylesheet\">\n<\/head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index><\/Index>\n    <\/div>\n<\/body>\n<\/html>",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "auth": {
+        "type": "noauth"
+    }
+}

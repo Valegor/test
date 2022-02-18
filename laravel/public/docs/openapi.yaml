@@ -1,0 +1,319 @@
+openapi: 3.0.3
+info:
+  title: Laravel
+  description: ''
+  version: 1.0.0
+servers:
+  -
+    url: 'http://laravel-super.loc:8888'
+paths:
+  /api/user:
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document</title>\n        <!-- Scripts -->\n        <script src=\"http://laravel-super.loc:8888/js/app.js\" defer></script>    \n        <!-- Styles -->\n        <link href=\"http://laravel-super.loc:8888/css/app.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index></Index>\n    </div>\n</body>\n</html>"
+      tags:
+        - Endpoints
+      security: []
+  /api/get:
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document</title>\n        <!-- Scripts -->\n        <script src=\"http://laravel-super.loc:8888/js/app.js\" defer></script>    \n        <!-- Styles -->\n        <link href=\"http://laravel-super.loc:8888/css/app.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index></Index>\n    </div>\n</body>\n</html>"
+      tags:
+        - Endpoints
+      security: []
+  /api/categories:
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document</title>\n        <!-- Scripts -->\n        <script src=\"http://laravel-super.loc:8888/js/app.js\" defer></script>    \n        <!-- Styles -->\n        <link href=\"http://laravel-super.loc:8888/css/app.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index></Index>\n    </div>\n</body>\n</html>"
+      tags:
+        - Endpoints
+      security: []
+  '/api/categories/{category}':
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document</title>\n        <!-- Scripts -->\n        <script src=\"http://laravel-super.loc:8888/js/app.js\" defer></script>    \n        <!-- Styles -->\n        <link href=\"http://laravel-super.loc:8888/css/app.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index></Index>\n    </div>\n</body>\n</html>"
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: category
+        description: ''
+        example: 4
+        required: true
+        schema:
+          type: integer
+  /api/posts:
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document</title>\n        <!-- Scripts -->\n        <script src=\"http://laravel-super.loc:8888/js/app.js\" defer></script>    \n        <!-- Styles -->\n        <link href=\"http://laravel-super.loc:8888/css/app.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index></Index>\n    </div>\n</body>\n</html>"
+      tags:
+        - Endpoints
+      security: []
+  '/api/posts/{post}':
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document</title>\n        <!-- Scripts -->\n        <script src=\"http://laravel-super.loc:8888/js/app.js\" defer></script>    \n        <!-- Styles -->\n        <link href=\"http://laravel-super.loc:8888/css/app.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index></Index>\n    </div>\n</body>\n</html>"
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: post
+        description: ''
+        example: 18
+        required: true
+        schema:
+          type: integer
+  /api/posts-categories:
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document</title>\n        <!-- Scripts -->\n        <script src=\"http://laravel-super.loc:8888/js/app.js\" defer></script>    \n        <!-- Styles -->\n        <link href=\"http://laravel-super.loc:8888/css/app.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index></Index>\n    </div>\n</body>\n</html>"
+      tags:
+        - Endpoints
+      security: []
+  '/api/posts-categories/{category}':
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document</title>\n        <!-- Scripts -->\n        <script src=\"http://laravel-super.loc:8888/js/app.js\" defer></script>    \n        <!-- Styles -->\n        <link href=\"http://laravel-super.loc:8888/css/app.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index></Index>\n    </div>\n</body>\n</html>"
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: category
+        description: ''
+        example: 7
+        required: true
+        schema:
+          type: integer
+  '/api/categories-posts/{category}':
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document</title>\n        <!-- Scripts -->\n        <script src=\"http://laravel-super.loc:8888/js/app.js\" defer></script>    \n        <!-- Styles -->\n        <link href=\"http://laravel-super.loc:8888/css/app.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <div id=\"app\" class=\"p-5\">\n                <Index></Index>\n    </div>\n</body>\n</html>"
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: category
+        description: ''
+        example: voluptas
+        required: true
+        schema:
+          type: string
+tags:
+  -
+    name: Endpoints
+    description: ''
