@@ -2,7 +2,7 @@ export default {
     state: {
       user_id: '',
       user_name: '',
-      user_email: 'hello@yandex.ru',
+      user_email: '',
       user_score: ''
     },
     mutations: {
